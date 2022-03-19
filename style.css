@@ -12,7 +12,7 @@ body {
     justify-content: center;
     width: 75%;
 }
-footer {
+.positionAbsolute {
   position: absolute;
   bottom: 0;  
 }
@@ -70,7 +70,7 @@ header {
 }
 .newsPreview {
   border: 3px solid plum;
-  margin-bottom: 80px
+  margin-bottom: 80px;
 }
 .newsPreviewHeader {
   border-bottom: 3px solid plum;
@@ -106,3 +106,15 @@ h1 {
 h2 {
   margin: 15px 0px;
 }
+p > a {
+  color: antiquewhite;
+}
+@media only screen and (max-width: 700px) {
+  .w-49 { 
+    width: 100%;
+  } 
+  form div {
+    display: block;
+  }
+}
+  
